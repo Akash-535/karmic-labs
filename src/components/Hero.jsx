@@ -10,14 +10,12 @@ const Hero = () => {
         alt="layer"
         className=" absolute top-0 left-0 z-0"
       />
-      <a
-        href="#upcoming"
-        className="absolute left-1/2 -translate-x-1/2 bottom-[7%] max-lg:hidden"
-      >
+      <a href="#upcoming"
+        className="absolute left-1/2 -translate-x-1/2 bottom-[8%] max-lg:hidden">
         <HeroArrowIcon />
       </a>
         <Header/>
-        <div className="bg-cover bg-no-repeat bg-center lg:bg-hero-bg max-lg:bg-mix-white max-lg:my-9 h-[726px] max-lg:h-full max-xl:px-5">
+        <div className="bg-cover bg-no-repeat bg-center lg:bg-hero-bg max-lg:bg-mix-white max-lg:mt-5 h-[726px] max-lg:h-full max-xl:px-5 2xl:mt-10">
         <div className="container">
           <div
             className="flex items-center max-lg:flex-wrap max-md:pt-16 max-xl:!justify-center pt-32 max-xl:py-24 max-lg:py-16
@@ -46,8 +44,7 @@ const Hero = () => {
               <img
                 src="./assets/nubbies-img.webp"
                 alt="nubbies-img"
-                className="w-full max-w-[398px] max-lg:mx-auto"
-              />
+                className="w-full max-w-[398px] max-lg:mx-auto"/>
             </div>
           </div>
         </div>

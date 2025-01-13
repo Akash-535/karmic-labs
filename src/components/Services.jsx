@@ -25,11 +25,11 @@ const Services = () => {
               className=" absolute -top-7 max-xl:-top-9 left-24 max-sm:left-10 max-sm:max-w-[261px] max-sm:-top-6"
             />
           </div>
-        <div className='flex flex-wrap gap-2 pt-[77px] max-xl:justify-center'>
+        <div className='flex flex-wrap gap-2 pt-[77px] max-xl:justify-center max-lg:pt-14 max-md:pt-10'>
             {SERVICES_LIST.map((obj , i) => (
                 <div key={i} className='group w-full max-w-[369px] relative'>
                     <div className='group-hover:opacity-100 opacity-0 absolute -top-9 -right-9 -z-10 duration-300 ease-linear max-sm:-right-5'><MoonIcon/></div>
-                    <div className='p-5 group-hover:backdrop-blur-[16px] group-hover:bg-off-white group-hover:border-off-white border border-transparent rounded-xl transition-all duration-300 ease-linear min-h-[276px]'>
+                    <div className='p-5 group-hover:backdrop-blur-[16px] group-hover:bg-off-white group-hover:border-off-white border border-transparent rounded-xl transition-all duration-300 ease-linear min-h-[276px] max-lg:min-h-0'>
                         {obj.icon}
                         <h4 className='text-xl font-bold leading-custom-4xl text-white pt-5'>{obj.name}</h4>
                         <p className='text-base text-white font-normal leading-custom-5xl max-w-[329px] font-grotesk pt-1.5'>{obj.description}</p>

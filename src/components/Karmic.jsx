@@ -1,6 +1,7 @@
 import React from 'react'
 import { KARMIC_LIST } from '../utils/helper';
 import Heading from '../common/Heading';
+
 const Karmic = () => {
   return (
     <div id='about' className="relative px-5">

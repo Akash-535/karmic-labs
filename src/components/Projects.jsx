@@ -4,7 +4,7 @@ import Heading from "../common/Heading";
 const Projects = () => {
   return (
     <div id="projects" className="bg-projects-bg bg-cover bg-center bg-no-repeat h-[902px] max-xl:h-full relative text-center px-5">
-      <div className="container pt-24 max-xl:py-32">
+      <div className="container pt-24 max-xl:py-32 max-xl:max-w-[875px]">
         <div className="max-w-[540px] mx-auto relative max-sm:max-w-[320px]">
           <img
             src="./assets/text-black-border.webp"
@@ -14,7 +14,7 @@ const Projects = () => {
           <Heading  text="Projects" headingClass="!text-black"
           />
         </div>
-        <p className="text-center max-w-[532px] mx-auto text-dark-black text-base leading-6 font-normal pt-6 max-xl:pt-16 max-sm:pt-10 ">
+        <p className="text-center max-w-[532px] mx-auto text-dark-black text-base leading-6 font-normal pt-6 max-xl:pt-12 max-sm:pt-6 ">
           Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh
           egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna
           id nisl quis vestibulum rhoncus.
@@ -33,8 +33,8 @@ const Projects = () => {
                   src={item}
                   alt={item}
                 />
-                <div className="absolute min-h-[47px] flex justify-center items-center bg-gray-light transition-all backdrop-blur-[9px] duration-300 w-full group-hover:bottom-0 bottom-[-50%] shadow-project-two-box">
-                  <p className="text-white text-xl leading-[21px] font-bold">
+                <div className="absolute min-h-[47px] flex justify-center items-center bg-gray-light transition-all backdrop-blur-[9px] duration-300 w-full group-hover:bottom-0 bottom-[-50%] shadow-project-two-box max-md:min-w-10">
+                  <p className="text-white text-xl leading-custom-lg font-bold max-md:text-base">
                     Nubbies
                   </p>
                 </div>

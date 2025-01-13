@@ -23,7 +23,7 @@ const Header = () => {
                             </li>
                         </ul>
                     ))}
-                    <button className='lg:hidden text-base font-bold rounded-full bg-white py-3 px-8 duration-300 ease-linear'>Connect Wallet</button>
+                    <button onClick={closeNavbar} className='lg:hidden text-base font-bold leading-custom-4xl rounded-full bg-white py-3 px-[34.1px] border border-transparent hover:text-white hover:bg-transparent hover:border-white duration-300 ease-linear'>Connect Wallet</button>
                 </div>
                 <button className='max-lg:hidden text-base font-bold leading-custom-4xl rounded-full bg-white py-3 px-[34.1px] border border-transparent hover:text-white hover:bg-transparent hover:border-white duration-300 ease-linear'>Connect Wallet</button>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
