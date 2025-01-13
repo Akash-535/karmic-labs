@@ -5,7 +5,7 @@ const Karmic = () => {
   return (
     <div id='about' className="relative px-5">
       <img src="./assets/right-white-layer.webp" alt="layer" className=' absolute top-[-50%] right-0' />
-      <div className="container pt-20 max-xl:pt-14 max-lg:pt-10 relative z-20">
+      <div className="container pt-20 max-xl:pt-14 max-lg:pt-10 relative z-20 max-md:pt-2">
         <div className="max-w-[606px] max-sm:max-w-[320px] mx-auto relative">
           <img
             src="./assets/text-border-white.webp"

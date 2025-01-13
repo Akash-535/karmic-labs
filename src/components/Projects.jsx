@@ -26,7 +26,7 @@ const Projects = () => {
               className={`w-3/12 flex max-xl:w-4/12 max-md:w-6/12 max-xl:justify-center max-xl:flex  `}
             >
               <div
-                className={`max-w-[273px] hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center`}
+                className={`max-w-[273px] hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center max-md:hover:scale-110`}
               >
                 <img
                   className={` w-full rounded-lg max-w-[273px]`}

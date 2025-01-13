@@ -6,10 +6,10 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
     <div className="pt-[100px] max-xl:pt-20 max-lg:pt-16 max-md:pt-14 max-sm:pt-10 flex flex-col justify-center items-center">
-      <a href="/">
+      <a href="/" className='footer-logo'>
      <FooterLogo/>
       </a>
-      <div className="flex items-center gap-6 justify-center mt-20 max-lg:mt-14 max-md:mt-10">
+      <div className="flex items-center gap-6 justify-center mt-20 max-lg:mt-14 max-md:mt-8 max-sm:mt-4">
         {MEDIA_ICON_LIST.map((obj, i) => (
           <div
             key={i}
